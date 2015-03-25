@@ -1,0 +1,5 @@
+D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\bin\Release\AlgoritmaBFS-DFS.exe.config
+D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\bin\Release\AlgoritmaBFS-DFS.exe
+D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\bin\Release\AlgoritmaBFS-DFS.pdb
+D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\obj\Release\AlgoritmaBFS-DFS.exe
+D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\obj\Release\AlgoritmaBFS-DFS.pdb

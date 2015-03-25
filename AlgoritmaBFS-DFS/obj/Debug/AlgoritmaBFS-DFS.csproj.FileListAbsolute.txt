@@ -1,0 +1,6 @@
+D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\bin\Debug\AlgoritmaBFS-DFS.exe.config
+D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\bin\Debug\AlgoritmaBFS-DFS.exe
+D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\bin\Debug\AlgoritmaBFS-DFS.pdb
+D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.exe
+D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.pdb
+D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.csprojResolveAssemblyReference.cache

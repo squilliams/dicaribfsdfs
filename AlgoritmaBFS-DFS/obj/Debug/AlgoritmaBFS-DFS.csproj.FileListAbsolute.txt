@@ -4,3 +4,9 @@ D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\bin\Debug\AlgoritmaBFS-DFS.pdb
 D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.exe
 D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.pdb
 D:\Projects\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Tugas\stima\cari\kode\AlgoritmaBFS-DFS\bin\Debug\AlgoritmaBFS-DFS.exe.config
+E:\GoogleDrive\Tugas\stima\cari\kode\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.exe
+E:\GoogleDrive\Tugas\stima\cari\kode\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.pdb
+E:\GoogleDrive\Tugas\stima\cari\kode\AlgoritmaBFS-DFS\bin\Debug\AlgoritmaBFS-DFS.exe
+E:\GoogleDrive\Tugas\stima\cari\kode\AlgoritmaBFS-DFS\bin\Debug\AlgoritmaBFS-DFS.pdb
+E:\GoogleDrive\Tugas\stima\cari\kode\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.csprojResolveAssemblyReference.cache

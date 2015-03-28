@@ -15,20 +15,23 @@ namespace tubes
         public DFS(){  //Default constructor
             m_progress = 0.0;
             m_resultNumber = 0;
+            m_result = new Queue<Tuple<string, string, int>>();
         }
         public void Execute(string inp_dir,string inp_find){    //Execute the DFS
-            try{
+            try
+            {
                 string[] inp_dir_list = Directory.GetDirectories(@inp_dir);
                 Search(inp_dir_list, inp_dir, inp_find, 1.0);
-                Console.WriteLine("masuk dfs");
-                while (m_result.Count != 0) {
+                Console.WriteLine("{0}", m_resultNumber);
+                while (m_result.Count != 0)
+                {
                     var temp = m_result.Dequeue();
                     Console.WriteLine("{0}~{1}~{2}", temp.Item1, temp.Item2, temp.Item3);
                 }
             }
-            catch (Exception e){
-                Console.WriteLine("Direktori {0} tidak bisa diakses.",inp_dir);
-            }   
+            catch (Exception e) {
+                //Console.WriteLine("Direktori {0} tidak bisa diakses.",inp_dir);
+            }
         }
         protected void Search(string[] inp_list, string inp_dir, string inp_find, double inp_weight){   //Recursive DFS searching
             double w_dir = 0, w_file = 0;

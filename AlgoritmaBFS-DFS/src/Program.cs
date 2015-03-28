@@ -22,9 +22,9 @@ namespace tubes
                 string inputus = Console.ReadLine();
                 DFS dfs = new DFS();
                 BFS bfs = new BFS();               
-                //dfs.Execute(inputus,inp_find);
+                dfs.Execute(inputus,inp_find);
+                string inputusi = Console.ReadLine();           
                 bfs.Execute(inputus,inp_find);
-                Console.WriteLine("masuk cons");
                 string inputusa = Console.ReadLine();
             }
         }

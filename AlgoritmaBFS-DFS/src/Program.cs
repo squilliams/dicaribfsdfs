@@ -18,12 +18,12 @@ namespace tubes
 
                 //string str = "kami plagiat google";
                 //Console.WriteLine("{0}", str);
-               // string inp_find = args[0];
-               // string inputus = args[1];
-               // string Choice = args[2];
-                string inp_find=Console.ReadLine();
-                string inputus = Console.ReadLine();
-                string Choice = Console.ReadLine();
+                string inp_find = args[0];
+                string inputus = args[1];
+                string Choice = args[2];
+                //string inp_find=Console.ReadLine();
+                //string inputus = Console.ReadLine();
+                //string Choice = Console.ReadLine();
                 
                 if (Choice.Equals("DFS"))
                 {
@@ -35,7 +35,7 @@ namespace tubes
                     BFS bfs = new BFS();
                     bfs.Execute(inputus,inp_find);
                 }
-                string inputusa = Console.ReadLine();
+                //string inputusa = Console.ReadLine();
             }
         }
     }

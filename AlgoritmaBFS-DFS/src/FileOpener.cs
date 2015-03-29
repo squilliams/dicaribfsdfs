@@ -19,14 +19,13 @@ namespace tubes
             switch (System.IO.Path.GetExtension(file_name)){
                 case ".doc":
                 case ".docx":
-                    return "";//ReadDOCX(file_name);
+                    return ReadDOCX(file_name);
                     break;
                 default:
                     return File.ReadAllText(file_name);
                     break;
             }
         }
-        /*
         public string ReadDOCX(string file_name) {
             Microsoft.Office.Interop.Word.Application word = new Microsoft.Office.Interop.Word.Application();
             object miss = System.Reflection.Missing.Value;
@@ -42,6 +41,5 @@ namespace tubes
             word.Quit();
             return result;
         }
-        */
     }
 }

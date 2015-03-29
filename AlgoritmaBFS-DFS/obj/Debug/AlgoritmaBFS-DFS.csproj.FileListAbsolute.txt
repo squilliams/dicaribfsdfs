@@ -16,3 +16,10 @@ D:\xampp\htdocs\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.pdb
 D:\xampp\htdocs\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\bin\Debug\AlgoritmaBFS-DFS.exe
 D:\xampp\htdocs\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\bin\Debug\AlgoritmaBFS-DFS.pdb
 D:\xampp\htdocs\AlgoritmaBFS-DFS\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.csprojResolveAssemblyReference.cache
+F:\tubes2_stima\apa\AlgoritmaBFS-DFS\bin\Debug\AlgoritmaBFS-DFS.exe.config
+F:\tubes2_stima\apa\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.exe
+F:\tubes2_stima\apa\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.pdb
+F:\tubes2_stima\apa\AlgoritmaBFS-DFS\bin\Debug\AlgoritmaBFS-DFS.exe
+F:\tubes2_stima\apa\AlgoritmaBFS-DFS\bin\Debug\AlgoritmaBFS-DFS.pdb
+F:\tubes2_stima\apa\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.csprojResolveAssemblyReference.cache
+F:\tubes2_stima\apa\AlgoritmaBFS-DFS\obj\Debug\AlgoritmaBFS-DFS.csproj.ResolveComReference.cache

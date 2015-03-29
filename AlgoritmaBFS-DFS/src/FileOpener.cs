@@ -19,29 +19,35 @@ namespace tubes
             switch (System.IO.Path.GetExtension(file_name)){
                 case ".doc":
                 case ".docx":
-                    return "";//ReadDOCX(file_name);
+                    return ReadDOCX(file_name);
                     break;
                 default:
                     return File.ReadAllText(file_name);
                     break;
             }
         }
-        /*
+        
         public string ReadDOCX(string file_name) {
             Microsoft.Office.Interop.Word.Application word = new Microsoft.Office.Interop.Word.Application();
             object miss = System.Reflection.Missing.Value;
             object path = @file_name;
             object readOnly = true;
-            Microsoft.Office.Interop.Word.Document docs = word.Documents.Open(ref path, ref miss, ref readOnly, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss);
             string result = "";
-            for (int i = 0; i < docs.Paragraphs.Count; i++)
+            try
             {
-                result += " \r\n " + docs.Paragraphs[i + 1].Range.Text.ToString();
+                Microsoft.Office.Interop.Word.Document docs = word.Documents.Open(ref path, ref miss, ref readOnly, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss, ref miss);
+                for (int i = 0; i < docs.Paragraphs.Count; i++)
+                {
+                    result += " \r\n " + docs.Paragraphs[i + 1].Range.Text.ToString();
+                }
+                docs.Close();
+                word.Quit();
             }
-            docs.Close();
-            word.Quit();
+            catch(Exception e) {
+                //Console.WriteLine("File corrupt"); 
+            }
             return result;
         }
-        */
+        
     }
 }

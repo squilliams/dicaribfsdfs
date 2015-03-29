@@ -16,7 +16,15 @@ namespace tubes
     {
         protected string[] m_filePattern = { ".h", ".cpp", ".c", ".txt", ".pas", ".cs", ".html", ".ada", ".css", ".hs",".java",".htm",".doc",".docx" };
         public string GetContent(string file_name) {
-            return File.ReadAllText(file_name);
+            switch (System.IO.Path.GetExtension(file_name)){
+                case ".doc":
+                case ".docx":
+                    return "";//ReadDOCX(file_name);
+                    break;
+                default:
+                    return File.ReadAllText(file_name);
+                    break;
+            }
         }
         /*
         public string ReadDOCX(string file_name) {

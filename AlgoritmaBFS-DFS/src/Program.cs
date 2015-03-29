@@ -16,15 +16,25 @@ namespace tubes
             static void Main(string[] args)
             {
 
-                string str = "kami plagiat google";
-                Console.WriteLine("{0}", str);
-                string inp_find = Console.ReadLine();
+                //string str = "kami plagiat google";
+                //Console.WriteLine("{0}", str);
+               // string inp_find = args[0];
+               // string inputus = args[1];
+               // string Choice = args[2];
+                string inp_find=Console.ReadLine();
                 string inputus = Console.ReadLine();
-                DFS dfs = new DFS();
-                BFS bfs = new BFS();               
-                dfs.Execute(inputus,inp_find);
-                string inputusi = Console.ReadLine();           
-                bfs.Execute(inputus,inp_find);
+                string Choice = Console.ReadLine();
+                
+                if (Choice.Equals("DFS"))
+                {
+                    DFS dfs = new DFS();
+                    dfs.Execute(inputus, inp_find);
+                }
+                else if (Choice.Equals("BFS"))
+                {
+                    BFS bfs = new BFS();
+                    bfs.Execute(inputus,inp_find);
+                }
                 string inputusa = Console.ReadLine();
             }
         }

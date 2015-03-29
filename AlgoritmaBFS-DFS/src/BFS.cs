@@ -22,7 +22,7 @@ namespace tubes{
                 while (m_result.Count != 0)
                 {
                     var temp = m_result.Dequeue();
-                    Console.WriteLine("{0}~{1}~{2}", temp.Item1, temp.Item2, temp.Item3);
+                    Console.WriteLine("{0}~^{1}", temp.Item1, temp.Item2);
                 }
             }
             catch(Exception e) {
@@ -57,7 +57,8 @@ namespace tubes{
                         }
                         catch (Exception e){
                             m_progress += (double)w_dir / dir_list.Length;
-                            Console.WriteLine("{0}", m_progress);
+                            //Console.WriteLine("{0}", m_progress);
+
                             //Console.WriteLine("Direktori {0} tidak bisa diakses.",cur_dir);
                         }
                     }
@@ -69,7 +70,7 @@ namespace tubes{
                     }else{
                         //File not supported
                         m_progress += (double)w_file / file_list.Length;
-                        Console.WriteLine("{0}", m_progress);
+                        //Console.WriteLine("{0}", m_progress);
                     }
                 }
                 foreach (string m_list in supported_file){
@@ -81,23 +82,28 @@ namespace tubes{
                         int p_start = 0;
                         int p_finish = 0;
                         string quote = "";
-                        if (i - 5 < 0) {
+                        if (i - 10 <= 0) {
                             p_start = 0;
                         } else{
-                            p_start = i - 6;
+                            p_start = i - 11;
                         }
-                        if (i + inp_find.Length + 5 > file_cont.Length) {
+                        if (i + inp_find.Length + 10 > file_cont.Length) {
                             p_finish = file_cont.Length;
                         }else {
-                            p_finish = i + inp_find.Length + 5;
+                            p_finish = i + inp_find.Length + 10;
                         }
                         for (int j = p_start; j < p_finish; j++) {
                             quote += file_cont[j];
+                            quote = quote.Replace(System.Environment.NewLine, " ");
+                            quote = quote.Replace("\r\n", " ");
+                            quote = quote.Replace("\n", " ");
+
                         }
                         var temp1 = new Tuple<string, string, int>(m_list, quote, i);
                         m_result.Enqueue(temp1);
                         m_progress += (double)w_file / file_list.Length; //masih belum optimal, harusnya untuk tiap file, bukan hanya file teks
-                        Console.WriteLine("{0}", m_progress);
+                        //Console.WriteLine("{0}", m_progress);
+
                         m_resultNumber++;
                     }
                 }
